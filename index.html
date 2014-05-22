@@ -1,13 +1,13 @@
-<!doctype html>
-<html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en-US">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>JavaWSTest by LoadingPleaseWait</title>
+    <title>Java Web Start Test</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -15,9 +15,13 @@
     <link rel="stylesheet" href="stylesheets/ie.css">
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    
 
   </head>
   <body>
+  
+    <script src="https://www.java.com/js/deployJava.js"></script>
+  
       <div id="header">
         <nav>
           <li class="fork"><a href="https://github.com/LoadingPleaseWait/JavaWSTest">View On GitHub</a></li>
@@ -31,31 +35,30 @@
 
       <section>
         <div id="title">
-    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-  </head>
-  <body>
-    <h1>Java Web Start Test</h1>
-         
-    <script src="https://www.java.com/js/deployJava.js"></script>
-    
-    <h2>Click button below for test.</h2>    
-    
-    <script>        
-        var jnlpFile = "javawstest_webstart.jnlp";
-        deployJava.createWebStartLaunchButtonEx(jnlpFile);
-    </script>
-    <noscript>JavaScript is required for this page.</noscript>
+        
+          <h1>Java Web Start Test</h1>
+			             
+			    <h2>Click button below for test.</h2>
+			    			    
+			    <p><a href="javascript:deployJava.launchWebStartApplication('javawstest_webstart.jnlp');">Launch Test</a></p>
 
+  			  <br/>
+  			  <hr/>
+ 				   <br/>
+			    
+			    <script>
+			        var jnlpFile = "javawstest_webstart.jnlp";
+			        deployJava.createWebStartLaunchButtonEx(jnlpFile);
+			    </script>
+			    <noscript>JavaScript is required for this page.</noscript>
+			
           <hr>
           <span class="credits left">Project maintained by <a href="https://github.com/LoadingPleaseWait">LoadingPleaseWait</a></span>
           <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
         </div>
 
         <h1>
-<a name="javawstest" class="anchor" href="#javawstest"><span class="octicon octicon-link"></span></a>JavaWSTest</h1>
-
-<p>This is hello world in a swing GUI using Java Web Start.</p>
-      </section>
+		 </section>
 
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->

@@ -2,8 +2,9 @@
 <jnlp spec="1.0+" 
       href="javawstest_webstart.jnlp">
     <information>
-        <title>Test</title>
+        <title>Java Web Start Test</title>
         <vendor>LoadingPleaseWait</vendor>
+        <offline-allowed/>
     </information>
     <resources>
         <!-- Application Resources -->

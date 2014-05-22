@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" 
+      href="javawstest_webstart.jnlp">
+    <information>
+        <title>Test</title>
+        <vendor>LoadingPleaseWait</vendor>
+    </information>
+    <resources>
+        <!-- Application Resources -->
+        <j2se version="1.7+"
+              href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="JavaWSTest.jar" main="true" />
+
+    </resources>
+    <application-desc
+         name="Java Web Start Test"
+         main-class="us.loadingpleasewait.javawstest.JavaWSTest">
+     </application-desc>
+     <update check="background"/>
+</jnlp>

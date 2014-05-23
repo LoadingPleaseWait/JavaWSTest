@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Codebase: loadingpleasewait.github.io
+Codebase: loadingpleasewait.github.io/
 Permissions: all-permissions
 Application-Name: Java Web Start Test
 Trusted-Library: true

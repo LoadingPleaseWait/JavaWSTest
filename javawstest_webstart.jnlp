@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jnlp spec="1.0+" 
 			codebase="http://loadingpleasewait.github.io/JavaWSTest"
-      href="http://loadingpleasewait.github.io/JavaWSTest/javawstest_webstart.jnlp">
+      href="javawstest_webstart.jnlp">
     <information>
         <title>Java Web Start Test</title>
         <vendor>LoadingPleaseWait</vendor>
@@ -11,12 +11,14 @@
         <!-- Application Resources -->
         <j2se version="1.7+"
               href="http://java.sun.com/products/autodl/j2se"/>
-        <jar href="http://loadingpleasewait.github.io/JavaWSTest/JavaWSTest.jar" main="true" />
+        <jar href="JavaWSTest.jar" main="true" />
 
     </resources>
-    <application-desc
-         name="Java Web Start Test"
-         main-class="us.loadingpleasewait.javawstest.JavaWSTest">
-     </application-desc>
-     <update check="background"/>
+    <applet-desc 
+    	name="Java Web Start Test"
+    	main-class="us.loadingpleasewait.javawstest.JavaWSTest"
+    	width="300"
+    	height="300">
+		</applet-desc>
+    <update check="background"/>
 </jnlp>

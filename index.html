@@ -39,18 +39,18 @@
 			             
 			    <h2>Click button below for test.</h2>
 			    			    
-			    <p><a href="javascript:deployJava.launchWebStartApplication('http://loadingpleasewait.github.io/JavaWSTest/javawstest_webstart.jnlp');">Launch Test</a></p>
+			    <p><a href="javawstest_webstart.jnlp">Launch Test</a></p>
 
   			  <br/>
   			  <hr/>
  				  <br/>
 			    
 			    <script>
-			        var url = "http://loadingpleasewait.github.io/JavaWSTest/javawstest_webstart.jnlp";
-       			  deployJava.createWebStartLaunchButton(url, '1.7.0');
+			        var jnlpFile = "javawstest_webstart.jnlp";
+       			  deployJava.createWebStartLaunchButtonEx(jnlpFile);
 			    </script>
 			    <noscript>JavaScript is required for this page.</noscript>
-			
+			    
           <hr>
           <span class="credits left">Project maintained by <a href="https://github.com/LoadingPleaseWait">LoadingPleaseWait</a></span>
           <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>

@@ -1,24 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<jnlp spec="1.0+" 
-			codebase="http://loadingpleasewait.github.io/JavaWSTest"
-      href="javawstest_webstart.jnlp">
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="http://loadingpleasewait.github.io/JavaWSTest">
     <information>
         <title>Java Web Start Test</title>
         <vendor>LoadingPleaseWait</vendor>
-        <offline-allowed/>
     </information>
     <resources>
         <!-- Application Resources -->
-        <j2se version="1.7+"
+        <property name="jnlp.publish-url" value="$$context/publish"/>
+        <j2se version="1.3+"
               href="http://java.sun.com/products/autodl/j2se"/>
-        <jar href="JavaWSTest.jar" main="true" />
-
+        <jar href="JavaWSTest.jar"/>
     </resources>
-    <applet-desc 
-    	name="Java Web Start Test"
-    	main-class="us.loadingpleasewait.javawstest.JavaWSTest"
-    	width="300"
-    	height="300">
-		</applet-desc>
-    <update check="background"/>
+    <application-desc main-class="us.loadingpleasewait.javawstest.JavaWSTest"/>
 </jnlp>

@@ -18,9 +18,6 @@
 
   </head>
   <body>
-  
-    <script src="https://www.java.com/js/deployJava.js"></script>
-  
       <div id="header">
         <nav>
           <li class="fork"><a href="https://github.com/LoadingPleaseWait/JavaWSTest">View On GitHub</a></li>
@@ -44,12 +41,12 @@
   			  <br/>
   			  <hr/>
  				  <br/>
-			    
-			    <script>
-			        var jnlpFile = "javawstest_webstart.jnlp";
-       			  deployJava.createWebStartLaunchButtonEx(jnlpFile);
-			    </script>
-			    <noscript>JavaScript is required for this page.</noscript>
+
+			    <script src="https://www.java.com/js/deployJava.js"></script>
+					<script>
+    				var url = "http://loadingpleasewait.github.io/JavaWSTest/javawstest_webstart.jnlp";
+   				  deployJava.createWebStartLaunchButton(url, '1.7.0');
+					</script>
 			    
           <hr>
           <span class="credits left">Project maintained by <a href="https://github.com/LoadingPleaseWait">LoadingPleaseWait</a></span>
